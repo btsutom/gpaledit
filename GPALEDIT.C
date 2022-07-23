@@ -1,10 +1,10 @@
 /**************************************
  gpaledit.c
  
- ˆê‰‚±‚ñ‚Èƒ\ƒtƒg‚Å‚à’˜ìŒ ‚Í•úŠü‚µ‚Ü‚¹‚ñB
- ‚à‚µ”z•z‚·‚éê‡‚ÍAtsutoban@gmail.com‚É
- ˜A—‚µ‚Ä‚à‚ç‚¦‚é‚Æ‚¤‚ê‚µ‚¢‚Å‚·B
- ‚±‚±‚Ì•\¦(/* ‚©‚ç */ ‚Ü‚Åj‚ÍÁ‚³‚È‚¢‚Å‚­‚¾‚³‚¢B
+ ä¸€å¿œã“ã‚“ãªã‚½ãƒ•ãƒˆã§ã‚‚è‘—ä½œæ¨©ã¯æ”¾æ£„ã—ã¾ã›ã‚“ã€‚
+ ã‚‚ã—é…å¸ƒã™ã‚‹å ´åˆã¯ã€tsutoban@gmail.comã«
+ é€£çµ¡ã—ã¦ã‚‚ã‚‰ãˆã‚‹ã¨ã†ã‚Œã—ã„ã§ã™ã€‚
+ ã“ã“ã®è¡¨ç¤º(ï¼ï¼Š ã‹ã‚‰ ï¼Šï¼ ã¾ã§ï¼‰ã¯æ¶ˆã•ãªã„ã§ãã ã•ã„ã€‚
  **************************************/
 
 #include <stdio.h>
@@ -56,10 +56,10 @@ int KeyScan(void)
 
 void initscreen()
 {
-	gotoxy(9,3); printf("1:¶‚ğ‘I‘ğ@    0:‰E‚ğ‘I‘ğ@@@ESC:I—¹");
-	gotoxy(9,5); printf("¶ R  G  B      R  G  B ‰E");
-	gotoxy(9,6); printf("ª w  e  r      u  i  o ª");
-	gotoxy(9,7); printf("« s  d  f      j  k  l «");
+	gotoxy(9,3); printf("1:å·¦ã‚’é¸æŠã€€    0:å³ã‚’é¸æŠã€€ã€€ã€€ESC:çµ‚äº†");
+	gotoxy(9,5); printf("å·¦ R  G  B      R  G  B å³");
+	gotoxy(9,6); printf("â†‘ w  e  r      u  i  o â†‘");
+	gotoxy(9,7); printf("â†“ s  d  f      j  k  l â†“");
 }
 
 void printvalue(int key, int* r, int* g, int* b)
@@ -156,4 +156,4 @@ int main()
 	goff();
 	clrscr();
 	return 0;
-}
+}
