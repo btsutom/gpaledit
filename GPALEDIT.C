@@ -12,22 +12,22 @@
 #include <conio.h>
 #include "sg.h"
 
-#define ESC		0x00
+#define ESC	0x00
 #define ENTER	0x1c
-#define UP		0x3a
+#define UP	0x3a
 #define LEFT	0x3b
 #define RIGHT	0x3c
 #define DOWN	0x3d
-#define F1		0x62
-#define F2		0x63
-#define F3		0x64
-#define F4		0x65
-#define F5		0x66
-#define F6		0x67
-#define F7		0x68
-#define F8		0x69
-#define F9		0x6a
-#define F10   0x6b
+#define F1	0x62
+#define F2	0x63
+#define F3	0x64
+#define F4	0x65
+#define F5	0x66
+#define F6	0x67
+#define F7	0x68
+#define F8	0x69
+#define F9	0x6a
+#define F10	0x6b
 #define KEY_1  1
 #define KEY_0 10
 #define KEY_W 17   // R1 of RGB : up
@@ -116,8 +116,8 @@ void printvalue(int key, int* r, int* g, int* b)
 
 void initbox()
 {
-		boxf(100, 200, 130, 250, 1);
-		boxf(200, 200, 230, 250, 2);
+	boxf(100, 200, 130, 250, 1);
+	boxf(200, 200, 230, 250, 2);
 }
 
 void drawbox(int s, int* r, int* g, int* b)
@@ -148,12 +148,12 @@ int main()
 	printvalue(KEY_0, r, g, b);
 	while( (key=KeyScan()) != ESC)
 	{
-			printvalue(key, r, g, b);
-			drawbox(s, r, g, b);
-			if( (key == KEY_0) || (key == KEY_1) ||
-		 		(key == LEFT) || (key == RIGHT)) s = key;
+		printvalue(key, r, g, b);
+		drawbox(s, r, g, b);
+		if( (key == KEY_0) || (key == KEY_1) ||
+			(key == LEFT) || (key == RIGHT)) s = key;
 	}
 	goff();
 	clrscr();
 	return 0;
-}
+}
