@@ -28,20 +28,20 @@
 #define F8	0x69
 #define F9	0x6a
 #define F10	0x6b
-#define KEY_1  1
-#define KEY_0 10
-#define KEY_W 17   // R1 of RGB : up
-#define KEY_E 18   // G1 of RGB : up
-#define KEY_R 19   // B1 of RGB : up
-#define KEY_S 30   // R1 of RGB : down
-#define KEY_D 31   // G1 of RGB : down
-#define KEY_F 32   // B1 of RGB : down
-#define KEY_U 22   // R0 of RGB : up
-#define KEY_I 23   // G0 of RGB : up
-#define KEY_O 24   // B0 of RGB : up
-#define KEY_J 35   // R0 of RGB : down
-#define KEY_K 36   // G0 of RGB : down
-#define KEY_L 37   // B0 of RGB : down
+#define KEY_1	1
+#define KEY_0	10
+#define KEY_W	17   // R1 of RGB : up
+#define KEY_E	18   // G1 of RGB : up
+#define KEY_R	19   // B1 of RGB : up
+#define KEY_S	30   // R1 of RGB : down
+#define KEY_D	31   // G1 of RGB : down
+#define KEY_F	32   // B1 of RGB : down
+#define KEY_U	22   // R0 of RGB : up
+#define KEY_I	23   // G0 of RGB : up
+#define KEY_O	24   // B0 of RGB : up
+#define KEY_J	35   // R0 of RGB : down
+#define KEY_K	36   // G0 of RGB : down
+#define KEY_L	37   // B0 of RGB : down
 
 int KeyScan(void)
 {
